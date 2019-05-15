@@ -10,7 +10,7 @@ from selenium import webdriver
 client = MongoClient('mongodb://127.0.0.1:27017/') # 本地
 # client = MongoClient('mongodb://xxxx:27017/') # 阿里云
 db = client['match']
-collection1 = db['matchlist1']
+collection1 = db['matchlist']
 collection2 = db['basicmatchdetail']
 collection3 = db['matchplaybyplaycn']
 collection4 = db['playeraveragedata']
