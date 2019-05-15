@@ -11,9 +11,9 @@ client = MongoClient('mongodb://127.0.0.1:27017/') # 本地
 # client = MongoClient('mongodb://xxxx:27017/') # 阿里云
 db = client['match']
 collection1 = db['matchlist1']
-collection2 = db['basicmatchdetail1']
-collection3 = db['matchplaybyplaycn1']
-collection4 = db['playeraveragedata1']
+collection2 = db['basicmatchdetail']
+collection3 = db['matchplaybyplaycn']
+collection4 = db['playeraveragedata']
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument('--headless')
